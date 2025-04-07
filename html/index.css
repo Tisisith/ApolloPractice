@@ -1,0 +1,13 @@
+.divider {
+  position: absolute;
+  height: 500px;
+  width: 300px;
+  display: block;
+  background-color: white;
+  display: flex;
+  flex: 3;
+}
+
+body {
+  background-color: aqua;
+}
