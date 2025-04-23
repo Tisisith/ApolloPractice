@@ -1,7 +1,7 @@
 import "../styles/ExerciseOne.css";
 
-const Flex2 = () => {
+const Flexbox3 = () => {
   return <div></div>;
 };
 
-export default Flex2;
+export default Flexbox3;

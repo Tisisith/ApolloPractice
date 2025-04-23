@@ -1,0 +1,192 @@
+.home {
+  font-family: sans-serif;
+  color: #111;
+  padding: 0;
+  margin: 0;
+}
+
+.home__hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 0rem 0rem 3rem;
+  background-color: #f3eddf;
+}
+
+.home__hero_text {
+  flex: 1 1 300px;
+}
+
+.home__hero_title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home__hero_subtitle {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.home__hero_button {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+}
+
+.home__hero_image {
+  flex: 1 1 20rem;
+  height: 30rem;
+  background: url("https://img.freepik.com/free-photo/close-up-ancient-greece-person-portrait_23-2151026658.jpg")
+    center/cover no-repeat;
+}
+
+.home__categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #fff;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.home__category {
+  text-align: left;
+}
+
+.home__category_img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.home__category-button {
+  background-color: white;
+  border: none;
+  margin-left: 11rem;
+  cursor: pointer;
+}
+
+.home__category_label {
+  font-weight: 600;
+}
+
+.home__sale_banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3eddf;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.home__sale_text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.home__sale_button {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border: none;
+  background: #111;
+  margin-bottom: 1rem;
+  color: #fff;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.home__featured {
+  text-align: left;
+}
+
+.home__featured_img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.home__featured_label {
+  font-weight: 600;
+}
+
+.home__products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.home__section-title {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.home__inspired {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 4rem;
+  padding: 3rem;
+  background-color: #fff;
+  margin-top: -5rem;
+}
+
+.footer__testimonial {
+  max-width: 600px;
+}
+
+.footer__quote_icon {
+  font-size: 4rem;
+  color: #e6ddd3;
+  line-height: 1;
+  margin-bottom: -3rem;
+}
+
+.footer__quote_text {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.footer__author {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 4rem;
+}
+
+.footer__nav_title {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.footer__nav_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__nav_item {
+  font-size: 0.875rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
