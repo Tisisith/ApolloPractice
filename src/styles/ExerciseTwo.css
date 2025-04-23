@@ -48,7 +48,6 @@
   justify-content: space-around;
   padding: 2rem;
   background: #fff;
-  gap: 4rem;
   flex-wrap: wrap;
 }
 
@@ -97,6 +96,12 @@
   color: #fff;
   border-radius: 20%;
   cursor: pointer;
+}
+
+.home__products_title {
+  text-align: left;
+  margin-bottom: 2rem;
+  margin-left: 15px;
 }
 
 .home__featured {

@@ -57,8 +57,7 @@ const Flexbox2 = () => {
         </section>
 
         {/* Featured Products */}
-        <h2 className="home__section-title">Featured Products</h2>
-
+        <h2 className="home__products_title">Featured Products</h2>
         <section className="home__products">
           <div className="home__featured">
             <img
