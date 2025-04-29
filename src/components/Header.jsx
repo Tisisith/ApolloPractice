@@ -23,6 +23,7 @@ const Header = () => {
           <Link to="/flexbox1">Exercise 1</Link>
           <Link to="/flexbox2">Exercise 2</Link>
           <Link to="/flexbox3">Exercise 3</Link>
+          <Link to="/flexbox4">Exercise 4</Link>
         </nav>
       </header>
     </>
